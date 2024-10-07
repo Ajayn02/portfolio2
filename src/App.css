@@ -1,0 +1,77 @@
+/* landing */
+.r1{
+    margin-top: 0px;
+}
+#col1{
+    justify-content: end;
+}
+#bt-main{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+#bt-main:hover{
+    color: blueviolet;
+    background-color: white;
+    transform: scale(1.01);
+}
+
+.img1{
+    border-radius: 250px;
+    /* border: 1px solid black; */
+}
+.img1:hover{
+    transform: scale(1.03);
+}
+@media (max-width:768px) {
+    .r1{
+        margin-top: 20px;
+    }
+    #col1{
+        justify-content: center;
+    }
+}
+
+/* about */
+
+.r2{
+    display: flex;
+    justify-content: center;
+}
+.div2{
+    background-image: url("https://img.freepik.com/free-vector/white-abstract-background_23-2148809725.jpg?t=st=1728124506~exp=1728128106~hmac=ab2036e26d11cb68fe0bb08508811c6eb64ec377211e1ce30291a36f240947b2&w=826");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url("https://img.freepik.com/free-vector/background-line-abstract-gradient-colorful-style_483537-2554.jpg?t=st=1728124930~exp=1728128530~hmac=fccf3938430dddfe1db6e6c49111fa9061be157dba4606509ab995ca4572ff6b&w=996"); */
+}
+
+.bt1:hover{
+    transform: scale(1.03);
+}
+
+#con1{
+    font-size: 18px;
+}
+@media (max-width:425px) {
+    #con1{
+        font-size: 15px;
+    }
+}
+
+/* skills */
+.cd1:hover{
+    /* transform: scale(1.03); */
+    animation: bounce;
+    animation-duration: 0.2s;
+
+}
+
+/* projects */
+/* .pro:hover{
+    transform: scale(1.02);
+} */
+
+.p1{
+    font-family: "Oswald", sans-serif;
+}
