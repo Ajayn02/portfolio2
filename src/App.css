@@ -1,3 +1,8 @@
+/* header */
+.navlink:hover{
+    transform: scale(1.05);
+}
+
 /* landing */
 .r1{
     margin-top: 0px;
@@ -52,12 +57,13 @@
 
 #con1{
     font-size: 18px;
+    padding: 10px;
 }
-@media (max-width:425px) {
+/* @media (max-width:425px) {
     #con1{
-        font-size: 15px;
+        font-size: 1px;
     }
-}
+} */
 
 /* skills */
 .cd1:hover{

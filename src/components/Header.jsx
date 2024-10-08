@@ -13,16 +13,16 @@ function Header() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto" style={{fontWeight:"bold"}}>
-                            <Nav.Link href="#home">
+                            <Nav.Link className='navlink'>
                                 <Link to={"/"} style={{textDecoration:"none",color:"black"}}>Home</Link>
                             </Nav.Link>
                             {/* <Nav.Link href="#link">
                                 <a style={{textDecoration:"none",color:"black"}} href='#abt'>About</a>
                             </Nav.Link> */}
-                            <Nav.Link href="#link">
+                            <Nav.Link className='navlink'>
                                 <Link to={'/projects'} style={{textDecoration:"none",color:"black"}}>Projects</Link>
                             </Nav.Link>
-                            <Nav.Link href="#link">
+                            <Nav.Link className='navlink'>
                                <Link to={'/con'} style={{textDecoration:"none",color:"black"}}> Contact</Link>
                             </Nav.Link>
                         </Nav>
