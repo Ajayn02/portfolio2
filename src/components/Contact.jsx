@@ -28,7 +28,7 @@ function Contact() {
         from_name:name,
         from_email:email,
         to_name:"Ajay",
-        message:msg,
+        message:[`subject : ${subject}`, msg ,`from ${email}`],
         sub:subject
       }
 
@@ -57,7 +57,7 @@ function Contact() {
             <FloatingLabel controlId="name" label="Your Name" className="mb-3" >
               <Form.Control type="text" placeholder="" onChange={(e)=>{setInput({...input,name:e.target.value})}} />
             </FloatingLabel>
-            <FloatingLabel controlId="email" label="Email" className="mb-3">
+            <FloatingLabel controlId="email" label="Your Email" className="mb-3">
               <Form.Control type="email" placeholder="" onChange={(e)=>{setInput({...input,email:e.target.value})}}/>
             </FloatingLabel>
             <FloatingLabel controlId="Subect" label="Subject" className="mb-3">
