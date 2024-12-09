@@ -9,6 +9,25 @@ function Projects() {
         <Row style={{display:"flex",justifyContent:"space-evenly",alignItems:"center"}}>
           <h1 className='text-center mb-5 p1' >Projects</h1>
 
+
+          <Col lg={4} md={6} sm={12} style={{ display: "flex", justifyContent: "center", alignItems: "center",marginTop:"40px" }}>
+            <Card className='shadow pro' style={{ width: '18rem',padding:"0px" }}>
+              <Card.Img className='' style={{height:"200px"}} variant="top" src="https://img.freepik.com/free-vector/gradient-multigenerational-home-illustration_52683-134517.jpg?t=st=1733717495~exp=1733721095~hmac=242f169f6eca5a5155f54d1e42b0beb6c0f2cd82782c0a70f04818e1a4365093&w=826" />
+              <Card.Body>
+                <Card.Title className='text-center my-3'>RealSpace</Card.Title>
+                <Card.Text style={{textAlign:"justify"}}>
+                RealSpace is online platform that connects buyers and sellers of real estate properties.It provides a seamless and user-friendly experience, allowing users to buy, sell properties with ease.
+
+                </Card.Text>
+                <div className='d-flex justify-content-between'>
+                <a href='https://github.com/Ajayn02/Real_space' target='blank'><button id='bt-main' className='btn btn-success'>Source</button></a>
+                <a href='https://realspace-ajays-projects-0d4c86c6.vercel.app/' target='blank'><button id='bt-main' className='btn btn-success'>Live Demo</button></a>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+
+
           <Col lg={4} md={6} sm={12} style={{ display: "flex", justifyContent: "center", alignItems: "center",marginTop:"40px" }} >
             <Card className='shadow pro' style={{ width: '18rem',padding:"0px" }}>
               <Card.Img style={{height:"200px"}} variant="top" src="https://img.freepik.com/free-vector/schoolboy-standing-books-raising-hand-speaking-pupil-reading-home-task-report-flat-vector-illustration-school-education-knowledge_74855-8576.jpg?t=st=1728199925~exp=1728203525~hmac=42a3f13837531e518f3c20a3fb8b189f0c0298a409060062324f2522a66423d3&w=740" />
@@ -25,21 +44,7 @@ function Projects() {
             </Card>
           </Col>
 
-          <Col lg={4} md={6} sm={12} style={{ display: "flex", justifyContent: "center", alignItems: "center",marginTop:"40px" }}>
-            <Card className='shadow pro' style={{ width: '18rem',padding:"0px" }}>
-              <Card.Img className='' style={{height:"200px"}} variant="top" src="https://img.freepik.com/free-vector/online-shopping-concept-illustration_114360-1084.jpg?t=st=1728200283~exp=1728203883~hmac=cbaaefd0fe0e4446dc2b900faf8cf02bcbeea466a76077ff8ac9831cf7b3e954&w=826" />
-              <Card.Body>
-                <Card.Title className='text-center my-3'>E-Kart</Card.Title>
-                <Card.Text style={{textAlign:"justify"}}>
-                E-Kart is a cutting-edge e-commerce platform built with HTML, CSS, React, and Redux. Enjoy seamless online shopping with features like Add to Cart, Wishlist, and secure checkout.
-                </Card.Text>
-                <div className='d-flex justify-content-between'>
-                <a href='https://github.com/Ajayn02/EKart' target='blank'><button id='bt-main' className='btn btn-success'>Source</button></a>
-                <a href='https://e-kart-iota-olive.vercel.app/' target='blank'><button id='bt-main' className='btn btn-success'>Live Demo</button></a>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
+        
 
           <Col lg={4} md={6} sm={12} style={{ display: "flex", justifyContent: "center", alignItems: "center",marginTop:"40px" }}>
             <Card className='shadow pro' style={{ width: '18rem',padding:"0px" }}>
