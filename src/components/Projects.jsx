@@ -28,6 +28,21 @@ function Projects() {
           </Col>
 
 
+          <Col lg={4} md={6} sm={12} style={{ display: "flex", justifyContent: "center", alignItems: "center",marginTop:"40px" }}>
+            <Card className='shadow pro' style={{ width: '18rem',padding:"0px" }}>
+              <Card.Img style={{height:"200px"}} variant="top" src="https://img.freepik.com/free-vector/customers-with-phones-shopping-online_74855-4781.jpg?t=st=1734414165~exp=1734417765~hmac=552e89203b87126cc2706357601f9cdf988713658f056d3732dc9b1afe6d7275&w=1060" />
+              <Card.Body>
+                <Card.Title className='text-center my-3'>E-Kart</Card.Title>
+                <Card.Text style={{textAlign:"justify"}}>
+                eKart is an e-commerce website that allows users to browse and purchase various products online. The platform provides a seamless shopping experience with secure payments.                </Card.Text>
+                <div className='d-flex justify-content-between'>
+                <a href='https://github.com/Ajayn02/e-kart_angular' target='blank'><button id='bt-main' className='btn btn-success'>Source</button></a>
+                <a href='https://e-kart-2.vercel.app' target='blank'><button id='bt-main' className='btn btn-success'>Live Demo</button></a>
+                </div>
+              </Card.Body>
+            </Card>
+          </Col>
+
           <Col lg={4} md={6} sm={12} style={{ display: "flex", justifyContent: "center", alignItems: "center",marginTop:"40px" }} >
             <Card className='shadow pro' style={{ width: '18rem',padding:"0px" }}>
               <Card.Img style={{height:"200px"}} variant="top" src="https://img.freepik.com/free-vector/schoolboy-standing-books-raising-hand-speaking-pupil-reading-home-task-report-flat-vector-illustration-school-education-knowledge_74855-8576.jpg?t=st=1728199925~exp=1728203525~hmac=42a3f13837531e518f3c20a3fb8b189f0c0298a409060062324f2522a66423d3&w=740" />
@@ -39,24 +54,6 @@ function Projects() {
                 <div className='d-flex justify-content-between'>
                     <a href='https://github.com/Ajayn02/Edu-connect' target='blank'><button id='bt-main' className='btn btn-success'>Source</button></a>
                     <a href='https://edu-connect-navy.vercel.app/' target='blank'><button id='bt-main' className='btn btn-success'>Live Demo</button></a>
-                </div>
-              </Card.Body>
-            </Card>
-          </Col>
-
-        
-
-          <Col lg={4} md={6} sm={12} style={{ display: "flex", justifyContent: "center", alignItems: "center",marginTop:"40px" }}>
-            <Card className='shadow pro' style={{ width: '18rem',padding:"0px" }}>
-              <Card.Img style={{height:"200px"}} variant="top" src="https://img.freepik.com/free-vector/media-player-concept-illustration_114360-3362.jpg?t=st=1728200393~exp=1728203993~hmac=443a705cf60c2253689223ef60b3dbfee1ef79ed2eaeb8af169eba1976e9b542&w=740" />
-              <Card.Body>
-                <Card.Title className='text-center my-3'>Media player</Card.Title>
-                <Card.Text style={{textAlign:"justify"}}>
-                MediaPlay is a user-friendly media player website built with HTML, CSS, and React. Easily add videos, categorize favorites, and create personalized playlists for an enhanced viewing experience.
-                </Card.Text>
-                <div className='d-flex justify-content-between'>
-                <a href='https://github.com/Ajayn02/MeadiaPlayer' target='blank'><button id='bt-main' className='btn btn-success'>Source</button></a>
-                <a href='https://meadia-player01.vercel.app/' target='blank'><button id='bt-main' className='btn btn-success'>Live Demo</button></a>
                 </div>
               </Card.Body>
             </Card>
