@@ -21,7 +21,7 @@ function Projects() {
                 </Card.Text>
                 <div className='d-flex justify-content-between'>
                 <a href='https://github.com/Ajayn02/Real_space' target='blank'><button id='bt-main' className='btn btn-success'>Source</button></a>
-                <a href='https://realspace-ajays-projects-0d4c86c6.vercel.app/' target='blank'><button id='bt-main' className='btn btn-success'>Live Demo</button></a>
+                <a href='https://realspace-frontend.vercel.app' target='blank'><button id='bt-main' className='btn btn-success'>Live Demo</button></a>
                 </div>
               </Card.Body>
             </Card>
